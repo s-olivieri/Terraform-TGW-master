@@ -5,6 +5,8 @@ resource "aws_s3_bucket" "example" {
   acl    = "public-read"
 }
 
+#example of S3
+
 resource "aws_s3_bucket_policy" "example" {
   bucket = aws_s3_bucket.example.id
 
