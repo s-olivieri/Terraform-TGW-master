@@ -1,0 +1,5 @@
+{
+  "frameworks": {
+    "terraform": { "templateFilesPattern": "**/*(*.tf|*.tfvars)" }
+  }
+}
