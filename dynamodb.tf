@@ -11,5 +11,6 @@ resource "aws_dynamodb_table" "example" {
         kms_master_key_id = aws_kms_key.example.arn
         sse_algorithm     = "aws:kms"
       }
+    }
   }
 }
