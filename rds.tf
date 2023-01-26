@@ -1,3 +1,4 @@
+#test for IaC scanning
 resource "aws_db_instance" "example" {
   allocated_storage    = 20
   storage_type         = "gp2"
